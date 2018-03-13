@@ -40,9 +40,10 @@ class Example extends Component<Props> {
         onSkip={this._onSkip}
         activeDotStyle={styles.activeDot}
         showSkipButton={true}
-        skipTitleButton="SKIP"
-        skipLastTitleButton="NEXT"
-        tintStatusBar={true}>
+        skipTitleButton="SALTAR"
+        skipLastTitleButton="SIGUIENTE"
+        tintStatusBar={true}
+        animationType={'Pager'}>
         <Slide
           image={{
             uri:
@@ -105,19 +106,21 @@ export default Example
 
 ## API
 
-|        Prop         |     Type      | Required |                               Description                               |
-| :-----------------: | :-----------: | :------: | :---------------------------------------------------------------------: |
-|        page         |    number     |    No    |              Index of initial page that should be selected              |
-|       onSkip        |   Function    |    No    |         Function to execute when default skip button is pressed         |
-|   activeDotStyle    |    Object     |    No    |                Styles object of active dot at the bottom                |
-|  inactiveDotStyle   |    Object     |    No    |               Styles object of inactive dot at the bottom               |
-|   skipTitleButton   |    string     |    No    |                        Title of the skip button                         |
-| skipLastTitleButton |    string     |    No    |          Title of the skip button when last page is displayed           |
-|     skipButton      | React.Element |    No    | Display a custom skip button component to override the default template |
+|        Prop         |     Type      | Required |                                                                  Description                                                                  |
+| :-----------------: | :-----------: | :------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
+|        page         |    number     |    No    |                                                 Index of initial page that should be selected                                                 |
+|       onSkip        |   Function    |    No    |                                            Function to execute when default skip button is pressed                                            |
+|   activeDotStyle    |    Object     |    No    |                                                   Styles object of active dot at the bottom                                                   |
+|  inactiveDotStyle   |    Object     |    No    |                                                  Styles object of inactive dot at the bottom                                                  |
+|   skipTitleButton   |    string     |    No    |                                                           Title of the skip button                                                            |
+| skipLastTitleButton |    string     |    No    |                                             Title of the skip button when last page is displayed                                              |
+|     skipButton      | React.Element |    No    |                                    Display a custom skip button component to override the default template                                    |
+|    animationType    |    string     |    No    | Choose a predefined animation to apply on ScrollView's children (default: `Pager`, types: Pager, ZoomOut, TranslateY, RotateX, RotateY, Flip) |
+|   customAnimation   |    Object     |    No    |                                              Custom animation to apply on ScrollView's children                                               |
 
 ## TODO
 
-* [ ] Parallax animations on scroll page
+* [x] Default and custom animations
 * [ ] Tests
 
 ## License
