@@ -1,6 +1,6 @@
 {
   "name": "react-native-js-app-tutorial",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A library for React Native to build a tutorial intro",
   "author": "Antonio Moreno Valls <amoreno@apsl.net>",
   "license": "MIT",
