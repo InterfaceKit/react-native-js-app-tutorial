@@ -10,7 +10,7 @@ $ yarn add react-native-js-app-tutorial
 
 ## Usage
 
-`react-native-js-app-intro` has ready templates to show pages. You can import `Slide`, a template prepared to show a slide with a default style. If you prefer, you can provide your own template. Just make sure that it belongs to `IntroSlider` component (as child).
+`react-native-js-app-tutorial` has ready templates to show pages. You can import `Slide`, a template prepared to show a slide with a default style. If you prefer, you can provide your own template. Just make sure that it belongs to `IntroSlider` component (as child).
 
 <p align="center">
 <img src="./template.png" alt="Stepper" width="400">
