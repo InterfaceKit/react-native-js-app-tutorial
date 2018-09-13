@@ -36,20 +36,23 @@
   "main": "index.js",
   "dependencies": {
     "prop-types": "^15.6.1",
-    "react-native-iphone-x-helper": "^1.0.2",
-    "react-native-js-app-tutorial": "^0.1.1"
+    "react-native-iphone-x-helper": "^1.1.0"
   },
   "devDependencies": {
     "@types/eslint-plugin-prettier": "^2.2.0",
-    "@types/prettier": "^1.7.0",
+    "@types/prettier": "^1.13.2",
+    "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
     "babel-preset-react-native": "^4.0.1",
-    "eslint": "^4.7.2",
-    "eslint-config-prettier": "^2.6.0",
-    "eslint-plugin-prettier": "^2.3.1",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
     "flow": "^0.2.3",
     "jest": "^23.6.0",
-    "react-test-renderer": "16.0.0-alpha.12"
+    "prettier": "^1.14.2",
+    "react": "16.3.0-alpha.1",
+    "react-native": "^0.54.0",
+    "react-test-renderer": "16.5.0"
   },
   "jest": {
     "preset": "react-native",

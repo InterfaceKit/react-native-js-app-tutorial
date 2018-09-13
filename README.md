@@ -13,7 +13,7 @@ $ yarn add react-native-js-app-tutorial
 `react-native-js-app-tutorial` has ready templates to show pages. You can import `Slide`, a template prepared to show a slide with a default style. If you prefer, you can provide your own template. Just make sure that it belongs to `IntroSlider` component (as child).
 
 <p align="center">
-<img src="./template.png" alt="Stepper" width="400">
+<img src="./2018-09-13_09.10.51.png" alt="Stepper" width="340">
 </p>
 
 You can also override the default skip button, passing a `skipButton` prop to `IntroSlider`.
@@ -21,18 +21,18 @@ You can also override the default skip button, passing a `skipButton` prop to `I
 ```js
 /* @flow */
 
-import React, { Component } from 'react'
-import { StyleSheet } from 'react-native'
-import { IntroSlider, Slide } from 'react-native-js-app-tutorial'
+import React, { Component } from 'react';
+import { StyleSheet } from 'react-native';
+import { IntroSlider, Slide } from 'react-native-js-app-tutorial';
 
 type Props = {
   navigator: Object
-}
+};
 
 class Example extends Component<Props> {
   _onSkip = () => {
-    console.log('onSkip pressed')
-  }
+    console.log('onSkip pressed');
+  };
 
   render() {
     return (
@@ -40,14 +40,14 @@ class Example extends Component<Props> {
         onSkip={this._onSkip}
         activeDotStyle={styles.activeDot}
         showSkipButton={true}
-        skipTitleButton="SALTAR"
-        skipLastTitleButton="SIGUIENTE"
+        skipTitleButton="SKIP"
+        skipLastTitleButton="NEXT"
         tintStatusBar={true}
-        animationType={'Pager'}>
+        animationType={'Parallax'}>
         <Slide
           image={{
             uri:
-              'https://www.electricasollerense.es/media/gasb2c/filer_public_thumbnails/filer_public/2014/04/11/fibra-logo-domestica.png__1618x1231_q85_crop_subsampling-2_upscale.png'
+              'https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?cs=srgb&dl=architecture-facade-house-259600.jpg&fm=jpg'
           }}
           title="Welcome"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel mollis risus. Nam dignissim porttitor suscipit."
@@ -59,7 +59,7 @@ class Example extends Component<Props> {
         <Slide
           image={{
             uri:
-              'https://www.electricasollerense.es/media/gasb2c/filer_public_thumbnails/filer_public/2014/04/11/fibra-logo-domestica.png__1618x1231_q85_crop_subsampling-2_upscale.png'
+              'https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?cs=srgb&dl=architecture-facade-house-259600.jpg&fm=jpg'
           }}
           title="Welcome 2"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel mollis risus. Nam dignissim porttitor suscipit."
@@ -71,7 +71,7 @@ class Example extends Component<Props> {
         <Slide
           image={{
             uri:
-              'https://www.electricasollerense.es/media/gasb2c/filer_public_thumbnails/filer_public/2014/04/11/fibra-logo-domestica.png__1618x1231_q85_crop_subsampling-2_upscale.png'
+              'https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?cs=srgb&dl=architecture-facade-house-259600.jpg&fm=jpg'
           }}
           title="Welcome 3"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel mollis risus. Nam dignissim porttitor suscipit."
@@ -81,7 +81,7 @@ class Example extends Component<Props> {
           descriptionStyle={styles.description}
         />
       </IntroSlider>
-    )
+    );
   }
 }
 
@@ -96,32 +96,27 @@ const styles = StyleSheet.create({
     fontFamily: 'Avenir Next'
   },
   image: {
-    width: 250,
-    height: 250
+    width: '80%',
+    height: 200
   }
-})
+});
 
-export default Example
+export default Example;
 ```
 
 ## API
 
-|        Prop         |     Type      | Required |                                                                  Description                                                                  |
-| :-----------------: | :-----------: | :------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-|        page         |    number     |    No    |                                                 Index of initial page that should be selected                                                 |
-|       onSkip        |   Function    |    No    |                                            Function to execute when default skip button is pressed                                            |
-|   activeDotStyle    |    Object     |    No    |                                                   Styles object of active dot at the bottom                                                   |
-|  inactiveDotStyle   |    Object     |    No    |                                                  Styles object of inactive dot at the bottom                                                  |
-|   skipTitleButton   |    string     |    No    |                                                           Title of the skip button                                                            |
-| skipLastTitleButton |    string     |    No    |                                             Title of the skip button when last page is displayed                                              |
-|     skipButton      | React.Element |    No    |                                    Display a custom skip button component to override the default template                                    |
-|    animationType    |    string     |    No    | Choose a predefined animation to apply on ScrollView's children (default: `Pager`, types: Pager, ZoomOut, TranslateY, RotateX, RotateY, Flip) |
-|   customAnimation   |    Object     |    No    |                                              Custom animation to apply on ScrollView's children                                               |
-
-## TODO
-
-* [x] Default and custom animations
-* [ ] Tests
+|        Prop         |     Type      | Required |                                                                             Description                                                                             |
+| :-----------------: | :-----------: | :------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|        page         |    number     |    No    |                                                            Index of initial page that should be selected                                                            |
+|       onSkip        |   Function    |    No    |                                                       Function to execute when default skip button is pressed                                                       |
+|   activeDotStyle    |    Object     |    No    |                                                              Styles object of active dot at the bottom                                                              |
+|  inactiveDotStyle   |    Object     |    No    |                                                             Styles object of inactive dot at the bottom                                                             |
+|   skipTitleButton   |    string     |    No    |                                                                      Title of the skip button                                                                       |
+| skipLastTitleButton |    string     |    No    |                                                        Title of the skip button when last page is displayed                                                         |
+|     skipButton      | React.Element |    No    |                                               Display a custom skip button component to override the default template                                               |
+|    animationType    |    string     |    No    | Choose a predefined animation to apply on ScrollView's children (default: `Parallax`, types: Parallax, Pager, ZoomOut, TranslateY, RotateX, RotateY, Flip & FadeIn) |
+|   customAnimation   |    Object     |    No    |                                                         Custom animation to apply on ScrollView's children                                                          |
 
 ## License
 

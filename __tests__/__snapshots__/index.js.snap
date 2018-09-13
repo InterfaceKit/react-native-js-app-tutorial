@@ -1,0 +1,402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "overflow": "hidden",
+    }
+  }
+>
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    bounces={false}
+    directionalLockEnabled={true}
+    horizontal={true}
+    onScroll={[Function]}
+    pagingEnabled={true}
+    removeClippedSubviews={true}
+    scrollEventThrottle={10}
+    scrollsToTop={false}
+    showsHorizontalScrollIndicator={false}
+    showsVerticalScrollIndicator={false}
+    style={
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+              Object {
+                "backgroundColor": "#FEBE29",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?cs=srgb&dl=architecture-facade-house-259600.jpg&fm=jpg",
+              }
+            }
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 26,
+                "fontWeight": "300",
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "textAlign": "center",
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          >
+            Welcome
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 16,
+                "fontWeight": "300",
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "textAlign": "center",
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel mollis risus. Nam dignissim porttitor suscipit.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+              Object {
+                "backgroundColor": "#CD5C5C",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?cs=srgb&dl=architecture-facade-house-259600.jpg&fm=jpg",
+              }
+            }
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 26,
+                "fontWeight": "300",
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "textAlign": "center",
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          >
+            Welcome 2
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 16,
+                "fontWeight": "300",
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "textAlign": "center",
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel mollis risus. Nam dignissim porttitor suscipit.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 750,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              },
+              Object {
+                "backgroundColor": "#6495ED",
+              },
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://images.pexels.com/photos/259600/pexels-photo-259600.jpeg?cs=srgb&dl=architecture-facade-house-259600.jpg&fm=jpg",
+              }
+            }
+            style={
+              Object {
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 26,
+                "fontWeight": "300",
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "textAlign": "center",
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          >
+            Welcome 3
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontSize": 16,
+                "fontWeight": "300",
+                "paddingHorizontal": 16,
+                "paddingVertical": 12,
+                "textAlign": "center",
+                "transform": Array [
+                  Object {
+                    "perspective": 1000,
+                  },
+                  Object {
+                    "translateX": 0,
+                  },
+                ],
+              }
+            }
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel mollis risus. Nam dignissim porttitor suscipit.
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 30,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 18,
+          "bottom": 32,
+          "height": 42,
+          "justifyContent": "center",
+          "position": "absolute",
+          "width": 150,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+      >
+        SKIP
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 20,
+            "height": 10,
+            "marginHorizontal": 5,
+            "width": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, .2)",
+            "borderRadius": 20,
+            "height": 10,
+            "marginHorizontal": 5,
+            "width": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0, 0, 0, .2)",
+            "borderRadius": 20,
+            "height": 10,
+            "marginHorizontal": 5,
+            "width": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
