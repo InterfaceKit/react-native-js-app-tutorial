@@ -10,10 +10,10 @@ $ yarn add react-native-js-app-tutorial
 
 ## Usage
 
-`react-native-js-app-tutorial` has ready templates to show pages. You can import `Slide`, a template prepared to show a slide with a default style. If you prefer, you can provide your own template. Just make sure that it belongs to `IntroSlider` component (as child).
+`react-native-js-app-tutorial` has ready templates to show pages. You can import `Slide`, a template prepared to show a slide with a default style. If you prefer, you can provide your own template. Just make sure that it belongs to `IntroSlider` component (as a child).
 
 <p align="center">
-<img src="./2018-09-13_09.10.51.png" alt="Stepper" width="340">
+<img src="./Kapture2018-10-01.gif">
 </p>
 
 You can also override the default skip button, passing a `skipButton` prop to `IntroSlider`.
